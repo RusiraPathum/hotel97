@@ -1,0 +1,27 @@
+body{
+    background: white;
+    font-family: 'oboto slab', serif;
+}
+
+.video-background{
+    position: absolute;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+
+}
+
+.home-section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    background: rgba(0,0,0,0.4) url(../videos/background.mp4);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay; 
+}
+

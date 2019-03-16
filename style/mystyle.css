@@ -1,0 +1,16 @@
+a{
+    color: gainsboro;
+
+}
+
+#nav{
+    border-bottom: white 3px solid;
+}
+
+.social-link{
+    background-color: black
+}
+
+.page-footer{
+    background-color:gray;
+}
